@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		950DE9BE1E47DD92000C8C3D /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950DE9BD1E47DD92000C8C3D /* LogViewController.m */; };
 		95F45A451E38310C00E70953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F45A441E38310C00E70953 /* main.m */; };
 		95F45A481E38310C00E70953 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F45A471E38310C00E70953 /* AppDelegate.m */; };
 		95F45A4B1E38310C00E70953 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F45A4A1E38310C00E70953 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		950DE9BC1E47DD92000C8C3D /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		950DE9BD1E47DD92000C8C3D /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
 		95F45A401E38310C00E70953 /* AllPro Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AllPro Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F45A441E38310C00E70953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95F45A461E38310C00E70953 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 		95F45A421E38310C00E70953 /* AllPro Workout */ = {
 			isa = PBXGroup;
 			children = (
+				950DE9BC1E47DD92000C8C3D /* LogViewController.h */,
+				950DE9BD1E47DD92000C8C3D /* LogViewController.m */,
 				95F45A461E38310C00E70953 /* AppDelegate.h */,
 				95F45A471E38310C00E70953 /* AppDelegate.m */,
 				95F45A491E38310C00E70953 /* ViewController.h */,
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					95F45A3F1E38310C00E70953 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 957A2ACA58;
 					};
 				};
 			};
@@ -152,6 +158,7 @@
 				95F45A4B1E38310C00E70953 /* ViewController.m in Sources */,
 				95F45A481E38310C00E70953 /* AppDelegate.m in Sources */,
 				95F45A451E38310C00E70953 /* main.m in Sources */,
+				950DE9BE1E47DD92000C8C3D /* LogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 957A2ACA58;
 				INFOPLIST_FILE = "AllPro Workout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dwang.AllPro-Workout";
@@ -274,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 957A2ACA58;
 				INFOPLIST_FILE = "AllPro Workout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dwang.AllPro-Workout";
@@ -300,6 +309,7 @@
 				95F45A591E38310C00E70953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
